@@ -1,0 +1,47 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="32%" r="85%">
+      <stop offset="0%" stop-color="#202840"/>
+      <stop offset="40%" stop-color="#121726"/>
+      <stop offset="75%" stop-color="#080a12"/>
+      <stop offset="100%" stop-color="#020203"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="35%">
+      <stop offset="0%" stop-color="#4FA3F0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4FA3F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sGrad" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2E8FE0"/>
+      <stop offset="100%" stop-color="#7DE3FF"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="60%" y2="40%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="250" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="195" r="130" fill="url(#glow)"/>
+  <circle cx="256" cy="256" r="250" fill="none" stroke="#2A3142" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- S mark, smaller, more centered, gap to wordmark tightened -->
+  <g transform="translate(0, -10) scale(0.78)" transform-origin="256 256">
+    <path d="M 332 148
+             C 302 126 264 120 232 132
+             C 198 144 178 172 178 202
+             C 178 232 202 250 238 260
+             C 266 268 288 274 288 296
+             C 288 318 266 332 238 332
+             C 208 332 184 320 168 298"
+          fill="none" stroke="url(#sGrad)" stroke-width="44" stroke-linecap="round"/>
+
+    <path d="M 322 158
+             C 296 140 264 136 238 146
+             C 212 156 196 176 196 198"
+          fill="none" stroke="url(#highlight)" stroke-width="20" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark: regular weight, clean sans, close to bottom edge -->
+  <text x="256" y="400" font-family="'Inter','Space Grotesk',Arial,sans-serif" font-size="38" font-weight="500" fill="#F0F1F4" text-anchor="middle">Sri Codes</text>
+</svg>
