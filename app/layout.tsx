@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Sri Codes — Full Stack Web Development & Services",
   description:
-    "Full-stack developer offering website creation, feature implementation, bug fixing, and student project help. Available full-time.",
+    "Full Stack Developer specializing in scalable web applications, REST APIs, and AI integrations. Available for freelance and full-time roles.",
   icons: {
     icon: "/favicon-32.png",
   },
