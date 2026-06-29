@@ -34,9 +34,11 @@ export default function About() {
         <div className="bg-[var(--surface)] border border-[var(--border)] rounded-[10px] p-[26px]">
           {[
             ['Experience', '1 year, enterprise (CGI)'],
-            ['Core stack', 'Java · Spring Boot · React'],
-            ['Also comfortable in', 'Next.js · Angular · NestJS'],
-            ['Database', 'PostgreSQL · Prisma'],
+            ['Backend', 'Java · Spring Boot · REST APIs'],
+            ['Frontend', 'React · Next.js(Full Stack) · TypeScript'],
+            ['Database', 'PostgreSQL · MySQL · Supabase'],
+            ['DevOps', 'Docker · Vercel · CI/CD'],
+            ['Tools', 'Git · Postman · Jira'],
             ['Shipped projects', '6+ live / in dev'],
             ['Availability', 'Full-time, starts immediately'],
           ].map(([k, v], i, arr) => (
