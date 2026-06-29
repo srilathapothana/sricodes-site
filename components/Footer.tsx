@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         <div className="flex justify-between items-center flex-wrap gap-2.5 py-[22px] border-t border-[var(--border)] font-mono text-xs text-[var(--text-dim)]">
-          <span>© 2026 Srilatha. All rights reserved.</span>
+          <span>© 2026 Sri Codes. All rights reserved.</span>
           <span>Built with care, deployed with confidence.</span>
         </div>
       </div>
