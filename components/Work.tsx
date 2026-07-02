@@ -61,7 +61,7 @@ export default function Work() {
                   ↗ Live demo
                 </a>
               ) : (
-                <span className="text-[var(--text-dim)] opacity-60">Not yet deployed</span>
+                <span className="text-[var(--text-dim)] opacity-60">Live demo</span>
               )}
             </div>
           </div>

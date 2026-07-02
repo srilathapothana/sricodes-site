@@ -117,8 +117,8 @@ export const projects: Project[] = [
     description:
       'Role-based food ordering app with country-scoped data access and granular permissions across admin, manager, and member roles.',
     tags: ['NestJS', 'GraphQL', 'Prisma', 'JWT'],
-    liveUrl: null,
-    status: 'in-dev',
+    liveUrl: 'https://slooze-frontend-production.up.railway.app/',
+    status: 'live',
   },
   {
     title: 'User Dashboard',
