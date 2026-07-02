@@ -4,6 +4,8 @@ A full-stack Next.js site for freelance web development services, with a
 real database backing client reviews and contact messages, plus a
 password-protected admin page to manage both.
 
+# Live Demo: https://sricodes-site.vercel.app/
+
 ## What's included
 
 - **Public site** (`app/page.tsx`): services, live project showcase, pricing,
